@@ -1,0 +1,436 @@
+/* -------------- Color ----------------- */
+
+html, body {
+	color: #677277;
+	font-family: "proxima-nova-soft", sans-serif;
+}
+
+a {
+	color: #2e8ffc;
+}
+
+a:hover {
+	color: #0e6ae9;
+}
+
+h1,h2,h3{
+	color: #677277;
+	font-family: "pragmatica-web", sans-serif;
+}
+
+
+p,h4,h5,h6,a,button,.button  {
+	font-family: "proxima-nova-soft", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+	color:#677277;
+}
+
+
+
+/* -------------- Buttons ----------------- */
+
+.button {
+	background: #13d698;
+	border-radius: 8px;
+}
+
+.button:hover {
+	background: #2FC293;
+	top:-2px;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+}
+
+.button:active {
+	top:2px;
+	box-shadow: none;
+}
+
+.button.yellow {
+	background: #fdef75;
+	color: #2e8ffc;
+}
+
+.button.blue {
+	background: #2e8ffc;
+}
+
+.button.white {
+	background: #fff;
+	color: #888;
+}
+
+/* -------------- Layout ----------------- */
+
+
+
+
+
+
+/* -------------- Header ----------------- */
+
+header {
+	top:0;
+	left: 0;
+	width: 100%;
+	
+	background: #3090f9;
+	height: 65px;
+	z-index: 99;
+}
+
+.logo {
+	display: inline-block;
+	width: 200px;
+	height: 63px;
+	background: url('../img/retain-logo.png') top left no-repeat;
+	background-size: 200px 63px;
+	text-indent: -9999px;
+	float: left;
+}
+
+header nav  {
+ 	float: left;
+}
+
+header nav ul {
+	margin: 0;
+	height: 100%;
+}
+
+header nav ul li {
+ 	list-style: none;
+ 	float: left;
+ 	height: 100%;
+ 	display: inline-block;
+ 	margin: 0 20px;
+ }
+
+header nav ul li a {
+	height: 65px;
+	display:table-cell;
+    vertical-align:middle;
+    letter-spacing: 1px;
+    color: #fff;
+
+}
+
+.user-box {
+	float: right;
+	width: auto;
+	height: 100%;
+}
+
+.user-box a {
+	float: left;
+	margin: 8px 0 0 10px;
+	
+	padding: 15px 20px;
+}
+
+
+/* ----------- Index ----------- */
+
+.tagline {
+	margin: 0 auto;
+	color: #fff;
+}
+
+.tagline h2 {
+	font-weight: 400;
+	font-size: 74px;
+	line-height: 1.1;
+}
+
+.tagline h5 {
+	font-size: 18px;
+	margin-top: 40px;
+}
+
+.tagline h2, .tagline h5 {
+	color: #fff;
+}
+
+.landing {
+	width: 100%;
+	height: auto;
+	background: url('../img/retain-bg.png') center repeat #3090f9;
+	background-size: 960px 375px;
+	padding: 60px 0;
+}
+
+.success {
+	width: 100%;
+	padding: 20px 0 40px;
+	background: #F0F9FF;
+}
+
+.success ul {
+	margin: 0 auto;
+	display: inline-block;
+	width: auto;
+	overflow: hidden;
+	height: auto;
+}
+
+.success li {
+	list-style: none;
+	display: block;
+	float: left;
+	width: 140px;
+	line-height: 1;
+	padding: 0 10px;
+	font-size: 14px;
+}
+
+.success li span {
+	font-size: 32px;
+	padding: 15px 0 5px;
+	display: block;
+}
+
+.feature {
+	padding: 60px 0 10px;
+}
+
+.section-break {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.action {
+	background: #242933;
+}
+
+.action h1 {
+	font-family: "proxima-nova-soft", sans-serif;
+	color: #f3f3f3;
+}
+
+footer {
+	width: 100%;
+	background: #1D2129;
+	color: #fff;
+	height: 150px;
+}
+
+footer nav  {
+ 	float: right;
+
+}
+
+footer nav ul {
+	margin: 0;
+	height: 100%;
+}
+
+footer nav ul li {
+ 	list-style: none;
+ 	float: left;
+ 	height: 100%;
+ 	display: inline-block;
+ 	margin: 0 20px;
+ }
+
+footer nav ul li a {
+	height: 150px;
+	display:table-cell;
+    vertical-align:middle;
+    letter-spacing: 1px;
+    color: #fff;
+
+}
+
+footer .logo {
+	margin-top: 42px;
+	display: block;
+}
+
+/* ----------- Utilities ------------- */
+
+
+.center {
+	text-align: center;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+
+/* -------- FORM ---------- */
+
+
+input {
+	width: 60%;
+	max-width: 400px;
+	border:none;
+	border-bottom:4px #aaa solid;
+	background: none;
+	color: #fff;
+	font-size: 28px;
+	margin: 20px;
+}
+
+input:focus {
+	outline:none;
+	border-bottom: 4px #fff solid;
+}
+
+*::-webkit-input-placeholder {
+    color: #666;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #666;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #666;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #666;
+}
+
+input:focus:invalid { /* when a field is considered valid by the browser */
+   	border-bottom: 4px #c72c00 solid;
+}
+
+
+input:required:valid { /* when a field is considered valid by the browser */
+   	border-bottom: 4px #13d698 solid;
+}
+
+
+
+
+/* -------- Slot Machine ------- */
+
+.slotmachine {
+	overflow: auto;
+	width: 660px;
+	height: auto;
+	margin: 20px auto;
+	position: relative;
+}
+
+.slotwrap {
+	float: left;
+	width: 180px;
+	margin: 20px;
+	text-align: center;
+}
+
+.slotwrap .slot {
+	text-align: center;
+	width: 180px;
+}
+
+.slotwrap .slot span {
+	width: auto;
+	padding: 10px;
+	margin: 5px;
+	display: inline-block;
+	border-radius: 5px;
+	font-size: 18px;
+	font-family: "pragmatica-web", sans-serif;
+}
+
+.slot-1 {
+	background: #497cf5;
+	color: #fff;
+}
+
+.slot-2 {
+	background: #fff453;
+	color: #b8af2f;
+}
+
+.slot-3 {
+	background: #b7b7b7;
+	color: #fff;
+}
+
+.slot-fade-top {
+	height: 40%;
+	position: absolute;
+	z-index: 99;
+	top:0;
+	left:0;
+	width: 100%;
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 64%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(64%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 64%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 64%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 64%,rgba(255,255,255,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 64%,rgba(255,255,255,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+
+.slot-fade-bottom {
+	height: 40%;
+	position: absolute;
+	z-index: 99;
+	bottom:0;
+	left:0;
+	width: 100%;
+background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 36%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(36%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 36%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 36%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 36%,rgba(255,255,255,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 36%,rgba(255,255,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+
+/* -------- icomoon ------------ */
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-1s2hf5');
+	src:url('../fonts/icomoon.eot?#iefix-1s2hf5') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-1s2hf5') format('woff'),
+		url('../fonts/icomoon.ttf?-1s2hf5') format('truetype'),
+		url('../fonts/icomoon.svg?-1s2hf5#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-user-add:before {
+	content: "\e600";
+}
+.icon-thumbsup:before {
+	content: "\e601";
+}
+.icon-comment:before {
+	content: "\e602";
+}
+.icon-lifebuoy:before {
+	content: "\e603";
+}
+.icon-eye:before {
+	content: "\e604";
+}
+.icon-rocket:before {
+	content: "\e605";
+}
+
+
