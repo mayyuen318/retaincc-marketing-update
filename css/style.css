@@ -64,6 +64,10 @@ h1,h2,h3,h4,h5,h6,p {
 /* -------------- Layout ----------------- */
 
 
+.page-title {
+	background: #fff;
+	padding: 30px 0;
+}
 
 
 
@@ -208,6 +212,49 @@ header nav ul li a {
 	color: #f3f3f3;
 }
 
+
+/* ----------- Pricing ----------- */
+
+.pricing-block {
+	width: 85%;
+	height: auto;
+	border: 1px solid #ccc;
+	box-shadow: 0 5px 0 #ccc;
+	padding: 20px;
+	margin-bottom: 100px;
+	margin-top: 30px;
+}
+
+.pricing-block.best {
+	border-color: #88AFE0;
+	border-width: 5px;
+}
+
+.pricing-block h5 {
+	font-size: 24px;
+}
+
+.contact-us {
+	background: url('../img/bg-1.jpg') center no-repeat;
+	background-size: cover;
+	color:#fff;
+	padding: 50px 0;
+}
+
+.contact-us h3 {
+	color: #BDE5FF;
+	font-family: 'proxima-nova-soft';
+	text-shadow: 0 2px 2px rgba(0,0,0,0.5);
+}
+
+.contact-us a {
+	color: #fff;
+	font-family: 'proxima-nova-soft';
+}
+
+/* ----------- Footer ----------- */
+
+
 footer {
 	width: 100%;
 	background: #1D2129;
@@ -310,31 +357,57 @@ input:required:valid { /* when a field is considered valid by the browser */
 
 .slotmachine {
 	overflow: auto;
-	width: 660px;
+	width: 100%;
 	height: auto;
 	margin: 20px auto;
 	position: relative;
 }
 
+.slotword {
+	float: left;
+	width: auto;
+	margin:20px;
+	text-align: center;
+	color: #555;
+	padding-top: 34px;
+	font-weight: 800;
+	font-size: 18px;
+	height: 90px;
+	display: block;
+}
+
+
 .slotwrap {
 	float: left;
-	width: 180px;
-	margin: 20px;
+	width: auto;
+	margin: 10px;
 	text-align: center;
 }
 
 .slotwrap .slot {
 	text-align: center;
-	width: 180px;
+	width: auto;
+}
+
+.slot.slot-block-1 {
+	width: 220px;
+}
+
+.slot.slot-block-2 {
+	width: 160px;
+}
+
+.slot.slot-block-3 {
+	width: 100px;
 }
 
 .slotwrap .slot span {
 	width: auto;
-	padding: 10px;
+	padding: 5px;
 	margin: 5px;
 	display: inline-block;
 	border-radius: 5px;
-	font-size: 18px;
+	font-size: 14px;
 	font-family: "pragmatica-web", sans-serif;
 }
 
